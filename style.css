@@ -1,0 +1,112 @@
+/* logotipo e imagem principal do site grupo scap*/
+.container{
+    width: 29%;
+    height: 29%;
+    float: none;
+}
+/* class do aside */
+.diferenciado{
+    background-color: rgb(0, 0, 0);
+    padding-top: 2%;
+}
+/* class para fazer excessão ao aside */
+body:not(.diferenciado){
+	margin: 0%;
+}
+/* conteúdo de sentido completo */
+article{
+    margin: 5%;
+}
+/* div do menu */
+#menu{
+    display: flexbox;
+    margin: 0%;
+    align-items: center;
+}
+/* imagens de ícone do menu */
+.icon-menu{
+     width: 7%;
+     height: 7%;
+}
+/* corpo da página */
+body{
+    background-color: rgb(104, 110, 104);
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', Verdana, sans-serif;
+}
+/* imagem entre textos */
+.fotoideias{
+    width: 50%;
+    height: 50%;
+    border-radius: 3%;
+}
+/* legenda das imagens */
+figcaption{
+      text-align: center;
+      padding-top: 1%;
+      color: midnightblue;
+}
+/* section */
+section{
+    margin: 5%;
+    align-items: center;
+}
+/* blockquote */
+blockquote{
+    text-align: left;
+    border: 10px solid rgb(32, 18, 18);
+    background-color: peru;
+    max-width:70%;
+    max-height:65%;
+    padding:1%;
+}
+
+
+/* botão voltar ao topo */
+#btnTopo {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: none;
+  }
+/* seta do botão - voltar ao topo */
+.imgtopo{
+    height: 20px;
+    width: 20px;
+}
+/* icones do footer */
+.imgfooter{
+    height: 4%;
+    width: 5%;
+    margin: 1%;
+    display: inline-block;
+}
+/* citação do blockquote */
+.cite{
+    margin-top: 2%;
+}
+/* títulos */
+h1,h2,h3{
+    text-align: center;
+    color: burlywood;
+    text-shadow: 2px rgb(32, 18, 18);
+}
+/* div do blockquote */
+#block{
+    margin-left:25% ;
+}
+/* link */
+a{
+    color: burlywood;
+}
+a:hover{
+    color: orange;
+}
+/* div do footer */
+.rodape{
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+}
